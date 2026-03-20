@@ -49,6 +49,19 @@ main {
     gap: 30px;
 }
 
+/*mobile*/
+@media (max-width: 768px) {
+  .sobre {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .Parte1 {
+    padding: 12px;
+  }
+}
+
 .sobre img {
     width: 20rem;
     height: 20rem;
@@ -65,8 +78,25 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
     color: #F4F0EA;
+    padding: 20px;
+}
+
+.Parte2-content {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .Parte2-content {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
 }
 
 .Parte2 a{
