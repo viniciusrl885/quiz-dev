@@ -49,6 +49,19 @@ main {
     gap: 30px;
 }
 
+/*mobile*/
+@media (max-width: 768px) {
+  .sobre {
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .Parte1 {
+    padding: 12px;
+  }
+}
+
 .sobre img {
     width: 20rem;
     height: 20rem;
@@ -65,8 +78,46 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1rem;
     color: #F4F0EA;
+    padding: 20px;
+}
+
+.Parte2-content {
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .Parte2-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: left;
+  }
+}
+
+.Parte2 h2 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .Parte2 h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+}
+
+.Parte2 ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Parte2 li {
+  margin-bottom: 8px;
 }
 
 .Parte2 a{
